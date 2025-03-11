@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖片背景</title>
+    <style>
+        body {
+            background: url('87e48038ecd2a729b26e1109428ad889.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+        }
+        .error-message {
+            margin-top: 20px;
+            font-size: 6em; /* Same size as <h1> */
+            color: rgba(201, 201, 71, 0.95);
+            font-weight: bold; /* Bold text */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .additional-message {
+            margin-top: 20px;
+            font-size: 5em; /* Same size as <h1> */
+            color: rgba(201, 201, 71, 0.95);
+            font-weight: bold; /* Bold text */
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .continue-button {
+            position: absolute;
+            bottom: 40px; /* Adjusted to move the button up */
+            font-size: 3em;
+            color: black;
+            font-weight: bold;
+            background-color: yellow;
+            padding: 20px;
+            border: none;
+            border-radius: 15px; /* Added rounded corners */
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transform: translateY(-1%);
+        }
+    </style>
+</head>
+<body>
+<div class="error-message">網頁異常</div>
+<div class="additional-message">~ 等等再來開拓吧 ~</div>
+<a href="https://hsr.hoyoverse.com/zh-tw/home" class="continue-button">繼續開拓</a>
+</body>
+</html>
